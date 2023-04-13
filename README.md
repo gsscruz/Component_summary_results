@@ -14,7 +14,7 @@
 
 ### **Links**
 
-- URL: [Add live site URL here](https://your-live-site-url.com)
+- URL: [Preview](https://gsscruz.github.io/Component_summary_results/)
 
 ### **Utilizado**
 
