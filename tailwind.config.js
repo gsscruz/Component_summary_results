@@ -19,8 +19,7 @@ module.exports = {
         gradient2_2: '#2521C9',
       },
       fontFamily: {
-        sans: ['Hanken\\ Grotesk'],
-        hanken: ['Hanken\\ Grotesk'],
+        primary: 'Hanken',
       },
     },
   },
