@@ -422,6 +422,13 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'Hanken Grotesk';
+
+  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
+      format('truetype');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -727,10 +734,6 @@ video {
   text-align: center;
 }
 
-.font-primary {
-  font-family: Hanken;
-}
-
 .text-\[18px\] {
   font-size: 18px;
 }
@@ -807,11 +810,8 @@ video {
   opacity: 0.5;
 }
 
-@font-face {
-  font-family: 'Hanken';
-
-  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
-    format('truetype');
+body {
+  font-family: 'Hanken Grotesk';
 }
 
 .hover\:from-\[\#7755FF\]:hover {
