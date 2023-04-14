@@ -422,13 +422,6 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: 'Hanken Grotesk';
-
-  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
-      format('truetype');
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -810,8 +803,10 @@ video {
   opacity: 0.5;
 }
 
-body {
+@font-face {
   font-family: 'Hanken Grotesk';
+
+  src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 
 .hover\:from-\[\#7755FF\]:hover {

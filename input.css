@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'Hanken Grotesk';
-    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
-      format('truetype');
-  }
-}
-
-body {
+@font-face {
   font-family: 'Hanken Grotesk';
+  src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
